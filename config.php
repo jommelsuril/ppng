@@ -1,8 +1,8 @@
 <?php
-	define('DB_SERVER', 'localhost');
-	define('DB_USERNAME', 'root');
-	define('DB_PASSWORD', '');
-	define('DB_NAME', 'php_crud');
+	define('DB_SERVER', '420server.mysql.database.azure.com');
+	define('DB_USERNAME', 'JomSur@420server');
+	define('DB_PASSWORD', 'MrDop33098');
+	define('DB_NAME', 'crud');
 	
 	$link = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 	if ($link->connect_errno) {
